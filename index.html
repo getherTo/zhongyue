@@ -1,0 +1,116 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>可信任-官方商城</title>
+<link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
+<script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
+<!--幻灯片-->
+<script type="text/javascript" src="Assets/js/js_z.js"></script>
+<link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+<!--幻灯片-->
+</head>
+
+<body>
+<!--顶部-->
+<div class="h_top">
+	<div class="h_top_m">
+        <span class="tel_t">
+            <i>免费订购热线：4001-598-055</i>
+        </span>
+    </div>
+</div>
+<!--顶部-->
+<!--头部-->
+<div class="header">
+	<div class="head_m clearfix">
+        <div class="logo"><a href=""><img src="Assets/images/logo.png" alt="金百合"/></a></div>
+        <ul class="nav clearfix">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html">浪琴</a></li>
+            <li><a href="index.html">劳力士</a></li>
+            <li><a href="index.html">欧米茄</a></li>
+            <li><a href="index.html">百达翡丽</a></li>
+            <li><a href="index.html">天梭</a></li>
+        </ul>
+    </div>
+</div>
+<!--头部-->
+<!--幻灯片-->
+<div class="banner">
+	<div id="inner">
+        <div class="hot-event">
+        	<div class="event-item" style="display: block;">
+                <a target="_blank" href="" class="banner">
+                    <img src="Assets/upload/1.jpg" class="photo" alt="金百合" />
+                </a>
+            </div>
+            <div class="event-item" style="display: none;">
+                <a target="_blank" href="" class="banner">
+                    <img src="Assets/upload/2.jpg" class="photo" alt="金百合" />
+                </a>
+            </div>
+            <div class="event-item" style="display: none;">
+                <a target="_blank" href="" class="banner">
+                    <img src="Assets/upload/3.jpg" class="photo" alt="金百合" />
+                </a>
+            </div>
+            <div class="event-item" style="display: none;">
+                <a target="_blank" href="" class="banner">
+                    <img src="Assets/upload/4.jpg" class="photo" alt="金百合" />
+                </a>
+            </div>
+            <div class="switch-tab">
+                <a href="#" onClick="return false;" class="current">1</a>
+                <a href="#" onClick="return false;">2</a>
+                <a href="#" onClick="return false;">3</a>
+                <a href="#" onClick="return false;">4</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('#inner').nav({ t: 2000, a: 500 });
+    </script>
+</div>
+<!--幻灯片-->
+<div class="space_hx">&nbsp;</div>
+<!--主体盒子-->
+<div class="wrap">
+        	<div class="box_h">
+            	<span style="color: red">最新活动 News</span>
+            </div>
+            <div class="box_body">
+            	<img src="Assets/upload/pic1.jpg"/>
+            </div>
+</div>
+<br>
+<div class="wrap">
+    <div class="box_body">
+        <img src="Assets/upload/pic2.jpg"/>
+    </div><br>
+</div>
+<div class="wrap">
+    <div class="box_body">
+        <img src="Assets/upload/pic3.jpg"/>
+    </div><br>
+</div>
+<div class="wrap">
+    <p class="box_body">
+       <img src="Assets/upload/pic4.jpg"/>
+       <img src="Assets/upload/pic5.jpg"/>
+    </p>
+</div>
+<!--主体盒子-->
+<div class="space_hx">&nbsp;</div>
+<!--底部-->
+<!--底部-->
+<script language="javascript">
+$(function(){
+	//幻灯片
+	var w_width=$(window).width();
+	var w_banner=(1920-w_width)/2;
+	$('.hot-event .event-item img').css('margin-left','-'+w_banner+'px'		);
+})
+</script>
+</body>
+</html>
